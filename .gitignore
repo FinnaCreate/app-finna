@@ -1,23 +1,49 @@
-/vendor/
-node_modules/
+node_modules
+public/*
+public/js
+public/css
+public/.robots.txt
+/public/tailwind-unpurged.css
+storage/*.key
+vendor
+.env
+.env.backup
+.env.cypress
+.env.dusk.local
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
 npm-debug.log
 yarn-error.log
+phpunit.dusk.xml
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+scratch.md
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
+######################################
+# Operating Systems
+######################################
 
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
+###### OSX ######
+._*
+.DS*
+.Spotlight-V100
+.Trashes
 
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
+###### Windows ######
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.shortcut
+
+######################################
+# Editors
+######################################
+
+###### VS Code ######
+/.vscode
+
+cgi-bin
+.well-known
+.htaccess
