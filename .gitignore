@@ -1,23 +1,31 @@
-node_modules
-public/*
-public/js
-public/css
-public/.robots.txt
-/public/tailwind-unpurged.css
-storage/*.key
-vendor
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
 .env
 .env.backup
-.env.cypress
-.env.dusk.local
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-phpunit.dusk.xml
+/.idea
+/.vscode
 
+######################################
+# Custom
+######################################
+
+public/.robots.txt
+/public/tailwind-unpurged.css
+.env.cypress
 scratch.md
+
+public/*
+public/js
+public/css
 
 ######################################
 # Operating Systems
