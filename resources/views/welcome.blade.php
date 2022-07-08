@@ -402,14 +402,12 @@
                 color: rgba(107, 114, 128, var(--tw-text-opacity))
             }
         }
-
     </style>
 
     <style>
         body {
             font-family: 'Nunito', sans-serif;
         }
-
     </style>
 </head>
 
@@ -422,7 +420,7 @@
                     <a href="{{ url('/dashboard') }}"
                        class="text-sm text-gray-700 underline dark:text-gray-500">Dashboard</a>
                 @else
-                    <a href="{{ route('login') }}" class="text-sm text-gray-700 underline dark:text-gray-500">Sign in</a>
+                    <a href="{{ route('login') }}" class="text-sm text-gray-700 underline dark:text-gray-500">Log in</a>
 
                     @if (Route::has('register'))
                         <a href="{{ route('register') }}"
@@ -527,8 +525,8 @@
                                    href="https://forge.laravel.com" class="underline">Forge</a>, <a
                                    href="https://vapor.laravel.com" class="underline">Vapor</a>, <a
                                    href="https://nova.laravel.com" class="underline">Nova</a>, and <a
-                                   href="https://envoyer.io" class="underline">Envoyer</a> help you take your
-                                projects to the next level. Pair them with powerful open source libraries like <a
+                                   href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects
+                                to the next level. Pair them with powerful open source libraries like <a
                                    href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a
                                    href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a
                                    href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a
