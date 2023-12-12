@@ -452,7 +452,7 @@
                                 </path>
                             </svg>
                             <div class="ml-4 text-lg font-semibold leading-7"><a href="https://laravel.com/docs"
-                                   class="text-gray-900 underline dark:text-white">Documentation</a></div>
+                                   class="text-gray-900 underline dark:text-white">Big Book</a></div>
                         </div>
 
                         <div class="ml-12">
